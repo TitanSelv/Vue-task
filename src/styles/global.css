@@ -1,0 +1,27 @@
+body {
+    background-color: #b4b4b4;
+    /* Серый фон для всего документа */
+    display: flex;
+    justify-content: center;
+    /* Высота для центрирования по вертикали */
+    align-items: flex-start;
+}
+
+#app {
+    width: 100%;
+    /* Занимает 95% ширины экрана */
+    max-width: 1500px;
+    /* Максимальная ширина для контента */
+    background-color: white;
+    /* Белый фон страницы */
+    padding: 50px;
+    /* Отступы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Тень для лучшей видимости */
+    box-sizing: border-box;
+}
+
+.header_h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
