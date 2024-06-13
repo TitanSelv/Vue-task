@@ -24,5 +24,4 @@ export default defineComponent({
 </script>
 
 <style>
-/* Добавьте стили по необходимости */
 </style>

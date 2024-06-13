@@ -73,7 +73,7 @@ export default defineComponent({
             }
         });
 
-        // Функция для определения текста статуса
+ 
         const getStatusLabel = (statusId: number) => {
             switch (statusId) {
                 case 67501602:
@@ -89,7 +89,6 @@ export default defineComponent({
             }
         };
 
-        // Функция для определения цвета текста статуса
         const getStatusColor = (statusId: number) => {
             switch (statusId) {
                 case 67501602:
@@ -101,7 +100,7 @@ export default defineComponent({
                 case 67501614:
                     return 'red';
                 default:
-                    return 'black'; // Черный цвет по умолчанию
+                    return 'black';
             }
         };
 
@@ -114,5 +113,5 @@ export default defineComponent({
 </script>
 
 <style scoped>
-/* Добавьте стили по необходимости */
+
 </style>
